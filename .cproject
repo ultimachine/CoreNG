@@ -12,19 +12,19 @@
 					</externalSetting>
 				</externalSettings>
 				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cross.lib.release.897729483" name="SAM3X8E" parent="cdt.managedbuild.config.gnu.cross.lib.release">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cross.lib.release.897729483" name="SAM3X8E" parent="cdt.managedbuild.config.gnu.cross.lib.release">
 					<folderInfo id="cdt.managedbuild.config.gnu.cross.lib.release.897729483." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.lib.release.285738798" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.lib.release">
 							<option id="cdt.managedbuild.option.gnu.cross.prefix.247642039" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix" value="arm-none-eabi-" valueType="string"/>
-							<option id="cdt.managedbuild.option.gnu.cross.path.1331950428" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path" value="C:\Arduino-1.5.8\hardware\tools\gcc-arm-none-eabi-4.8.3-2014q1\bin" valueType="string"/>
+							<option id="cdt.managedbuild.option.gnu.cross.path.1331950428" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path" value="C:\Users\M4700\Documents\workspace\arduino-1.6.12-windows\arduino-1.6.12\portable\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin" valueType="string"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.1469163379" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
 							<builder buildPath="${workspace_loc:/CoreNG}/Release" id="cdt.managedbuild.builder.gnu.cross.1364090807" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.597788140" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
@@ -126,22 +126,22 @@
 					</externalSetting>
 				</externalSettings>
 				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cross.lib.release.897729483.161018050" name="SAM4E8E" parent="cdt.managedbuild.config.gnu.cross.lib.release">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.config.gnu.cross.lib.release.897729483.161018050" name="SAM4E8E" parent="cdt.managedbuild.config.gnu.cross.lib.release" postannouncebuildStep="" postbuildStep="" preannouncebuildStep="" prebuildStep="">
 					<folderInfo id="cdt.managedbuild.config.gnu.cross.lib.release.897729483.161018050." name="/" resourcePath="">
-						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.lib.release.1716907105" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.lib.release">
+						<toolChain errorParsers="" id="cdt.managedbuild.toolchain.gnu.cross.lib.release.1716907105" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.lib.release">
 							<option id="cdt.managedbuild.option.gnu.cross.prefix.542555289" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix" value="arm-none-eabi-" valueType="string"/>
-							<option id="cdt.managedbuild.option.gnu.cross.path.317148025" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path" value="C:\Arduino-1.5.8\hardware\tools\gcc-arm-none-eabi-4.8.3-2014q1\bin" valueType="string"/>
+							<option id="cdt.managedbuild.option.gnu.cross.path.317148025" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path" value="C:\Users\M4700\Documents\workspace\arduino-1.6.12-windows\arduino-1.6.12\portable\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin" valueType="string"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.471788573" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
-							<builder buildPath="${workspace_loc:/CoreNG}/Release" id="cdt.managedbuild.builder.gnu.cross.1120505592" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
-							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.326515188" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+							<builder buildPath="${workspace_loc:/CoreNG}/Release" errorParsers="org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.CWDLocator" id="cdt.managedbuild.builder.gnu.cross.1120505592" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool command="gcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.tool.gnu.cross.c.compiler.326515188" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
 								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.965737206" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.more" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.debugging.level.872257797" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.471094812" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
@@ -179,7 +179,7 @@
 								<option id="gnu.c.compiler.option.misc.other.529476750" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -std=gnu99 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1806524910" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1042598993" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
+							<tool command="g++" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1042598993" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
 								<option id="gnu.cpp.compiler.option.optimization.level.354399219" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.more" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.debugging.level.1155085380" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.1397828295" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
@@ -217,8 +217,8 @@
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.1984929218" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker"/>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.1414305257" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker"/>
-							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.1891518724" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
-							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.176734971" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+							<tool command="ar" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="" id="cdt.managedbuild.tool.gnu.cross.archiver.1891518724" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool command="as" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.tool.gnu.cross.assembler.176734971" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.830434724" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 						</toolChain>
@@ -240,22 +240,22 @@
 					</externalSetting>
 				</externalSettings>
 				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cross.lib.release.897729483.707159577" name="RADDS" parent="cdt.managedbuild.config.gnu.cross.lib.release">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.config.gnu.cross.lib.release.897729483.707159577" name="RADDS" parent="cdt.managedbuild.config.gnu.cross.lib.release" postannouncebuildStep="" postbuildStep="" preannouncebuildStep="" prebuildStep="">
 					<folderInfo id="cdt.managedbuild.config.gnu.cross.lib.release.897729483.707159577." name="/" resourcePath="">
-						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.lib.release.914674480" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.lib.release">
-							<option id="cdt.managedbuild.option.gnu.cross.prefix.1933363652" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix" value="arm-none-eabi-" valueType="string"/>
-							<option id="cdt.managedbuild.option.gnu.cross.path.1302577148" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path" value="C:\Arduino-1.5.8\hardware\tools\gcc-arm-none-eabi-4.8.3-2014q1\bin" valueType="string"/>
+						<toolChain errorParsers="" id="cdt.managedbuild.toolchain.gnu.cross.lib.release.914674480" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.lib.release">
+							<option id="cdt.managedbuild.option.gnu.cross.prefix.1933363652" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix" useByScannerDiscovery="false" value="arm-none-eabi-" valueType="string"/>
+							<option id="cdt.managedbuild.option.gnu.cross.path.1302577148" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path" useByScannerDiscovery="false" value="C:\Users\M4700\Documents\workspace\arduino-1.6.12-windows\arduino-1.6.12\portable\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin" valueType="string"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.895712984" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
-							<builder buildPath="${workspace_loc:/CoreNG}/Release" id="cdt.managedbuild.builder.gnu.cross.1365491109" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
-							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.746308312" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+							<builder buildPath="${workspace_loc:/CoreNG}/Release" errorParsers="org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.CWDLocator" id="cdt.managedbuild.builder.gnu.cross.1365491109" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool command="gcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}  ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.tool.gnu.cross.c.compiler.746308312" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
 								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.2057624948" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.more" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.debugging.level.586919692" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.762427067" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
@@ -292,9 +292,10 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/variants/duet}&quot;"/>
 								</option>
 								<option id="gnu.c.compiler.option.misc.other.1394015566" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -std=gnu99 -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500" valueType="string"/>
+								<option id="gnu.c.compiler.option.dialect.std.902353747" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.886408392" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1484012667" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
+							<tool command="g++" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1484012667" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
 								<option id="gnu.cpp.compiler.option.optimization.level.1112663425" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.more" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.debugging.level.1091457296" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.1655926764" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
@@ -329,18 +330,135 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/variants/RADDS}&quot;"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.other.other.1102995682" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -std=gnu++11 -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-threadsafe-statics -fno-rtti -fno-exceptions -nostdlib --param max-inline-insns-single=500" valueType="string"/>
+								<option id="gnu.cpp.compiler.option.dialect.std.303644783" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.default" valueType="enumerated"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1423514733" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.2127627495" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker"/>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.30463407" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker"/>
-							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.1863001867" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
-							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.144431637" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+							<tool command="ar" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="" id="cdt.managedbuild.tool.gnu.cross.archiver.1863001867" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool command="as" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.tool.gnu.cross.assembler.144431637" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.528954818" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="asf/sam/drivers/hsmci|variants/duet|asf/common/services/storage/ecc_hamming|asf/sam/utils/syscalls/gcc|asf/common/services/spi|variants/duetNG|asf/common/components/memory/sd_mmc/sd_mmc_spi.h|asf/common/components/memory/sd_mmc/sd_mmc_spi.c|asf/common/components/memory/sd_mmc/module_config_spi|asf/common/utils/osprintf|asf/common/utils/membag|asf/common/utils/stdio|asf/common/services/clock/sam4s|asf/common/services/clock/sam3s|asf/common/services/clock/sam4e|asf/sam/components/ethernet_phy|asf/sam/components/ethernet_phy/ksz8061rnb|asf/sam/components/ethernet_phy/ksz8081mnx|asf/sam/components/ethernet_phy/ksz8081rna|asf/sam/components/ethernet_phy/ksz8851snl|asf/sam/components/ethernet_phy/dm9161a|asf/sam/drivers/acc|asf/sam/drivers/aes|asf/sam/drivers/crccu|asf/sam/drivers/afec|asf/sam/drivers/udp|asf/sam/drivers/xdmac|asf/sam/drivers/abdacb|asf/common/services/delay|asf/common/services/serial|asf/common/services/fifo|asf/common/services/crc32|asf/common/services/isp|asf/common/services/gfx_mono|asf/common/services/gfx|asf/common/services/sensors|asf/common/services/hugemem|asf/common/services/freertos|asf/common/services/calendar|asf/common/services/adp|asf/common/services/usb/class/phdc|asf/common/services/usb/class/msc|asf/common/services/usb/class/hid|asf/common/services/usb/class/dfu_flip|asf/common/services/usb/class/composite|asf/common/services/usb/class/aoa|asf/common/drivers|libraries/HID|libraries/SPI|asf/sam/utils/cmsis/samg|asf/sam/utils/cmsis/same70|asf/sam/utils/cmsis/sam4s|asf/sam/utils/cmsis/sam4n|asf/sam/utils/cmsis/sam4l|asf/sam/utils/cmsis/sam4e|asf/sam/utils/cmsis/sam4cp|asf/sam/utils/cmsis/sam4cm32|asf/sam/utils/cmsis/sams70|asf/sam/utils/cmsis/samv70|asf/sam/utils/cmsis/samv71|asf/sam/utils/cmsis/sam4cm|asf/sam/utils/cmsis/sam4c|asf/sam/utils/cmsis/sam3u|asf/sam/utils/cmsis/sam3s8|asf/sam/utils/cmsis/sam3s|asf/sam/utils/cmsis/sam3n|asf/thirdparty/CMSIS/DSP_Lib|asf/common/applications|asf/sam/applications|system/CMSIS/Device/ARM/ARMCM3/Source/Templates|system/CMSIS/CMSIS/DSP_Lib|system/CMSIS/Device/ARM/ARMCM4|system/CMSIS/Device/ARM/ARMCM0|system/CMSIS/Device/ATMEL/sam3sd8|system/CMSIS/Device/ATMEL/sam3u|system/CMSIS/Device/ATMEL/sam3s|system/CMSIS/Device/ATMEL/sam3n|system/CMSIS/Device/ATMEL/sam4s" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.cross.lib.release.897729483.1360990522">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cross.lib.release.897729483.1360990522" moduleId="org.eclipse.cdt.core.settings" name="Archim">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/CoreNG"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/CoreNG/Archim"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="CoreNG" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="Archim 32-bit 3d controller core" id="cdt.managedbuild.config.gnu.cross.lib.release.897729483.1360990522" name="Archim" parent="cdt.managedbuild.config.gnu.cross.lib.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.cross.lib.release.897729483.1360990522." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.lib.release.19532909" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.lib.release">
+							<option id="cdt.managedbuild.option.gnu.cross.prefix.288028992" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix" useByScannerDiscovery="false" value="arm-none-eabi-" valueType="string"/>
+							<option id="cdt.managedbuild.option.gnu.cross.path.896202572" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path" useByScannerDiscovery="false" value="C:\Users\M4700\Documents\workspace\arduino-1.6.12-windows\arduino-1.6.12\portable\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\bin" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.1593835243" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/CoreNG}/Release" id="cdt.managedbuild.builder.gnu.cross.749422405" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1523824228" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.680701453" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.more" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.525783020" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.938698861" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__SAM3X8E__"/>
+									<listOptionValue builtIn="false" value="printf=iprintf"/>
+									<listOptionValue builtIn="false" value="UDD_ENABLE"/>
+									<listOptionValue builtIn="false" value="UDD_NO_SLEEP_MGR"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.2044499917" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cores/arduino}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/utils/header_files}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/utils/preprocessor}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/utils/cmsis/sam3x/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/drivers/dmac}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/drivers/efc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/drivers/hsmci}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/drivers/pio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/drivers/pmc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/drivers/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/drivers/usart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/services/clock}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/services/ioport}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/services/sleepmgr}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/services/usb}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/services/usb/udc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/services/usb/class/cdc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/services/usb/class/cdc/device}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/thirdparty/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/variants/archim}&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.misc.other.2131585607" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -std=gnu99 -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500" valueType="string"/>
+								<option id="gnu.c.compiler.option.dialect.std.1401687059" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.896294684" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.734745833" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.1284078058" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.more" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1185415776" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.24591753" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__SAM3X8E__"/>
+									<listOptionValue builtIn="false" value="printf=iprintf"/>
+									<listOptionValue builtIn="false" value="UDD_ENABLE"/>
+									<listOptionValue builtIn="false" value="UDD_NO_SLEEP_MGR"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.include.paths.369993589" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cores/arduino}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/utils/header_files}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/utils/preprocessor}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/utils/cmsis/sam3x/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/drivers/dmac}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/drivers/efc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/drivers/pio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/drivers/pmc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/sam/drivers/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/services/clock}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/services/ioport}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/services/usb}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/services/usb/udc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/services/usb/class/cdc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/common/services/usb/class/cdc/device}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/asf/thirdparty/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/libraries/Storage}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/variants/archim}&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.other.other.1726668263" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -std=gnu++11 -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-threadsafe-statics -fno-rtti -fno-exceptions -nostdlib --param max-inline-insns-single=500" valueType="string"/>
+								<option id="gnu.cpp.compiler.option.dialect.std.958024613" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.default" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2060543627" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.1615431979" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.375138073" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.52538724" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.1041061685" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.507131893" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="variants/RADDS|asf/common/services/storage/ecc_hamming|asf/sam/utils/syscalls/gcc|asf/common/services/spi|variants/duetNG|asf/common/components/memory/sd_mmc/sd_mmc_spi.h|asf/common/components/memory/sd_mmc/sd_mmc_spi.c|asf/common/components/memory/sd_mmc/module_config_spi|asf/common/utils/osprintf|asf/common/utils/membag|asf/common/utils/stdio|asf/common/services/clock/sam4s|asf/common/services/clock/sam3s|asf/common/services/clock/sam4e|asf/sam/components/ethernet_phy|asf/sam/components/ethernet_phy/ksz8061rnb|asf/sam/components/ethernet_phy/ksz8081mnx|asf/sam/components/ethernet_phy/ksz8081rna|asf/sam/components/ethernet_phy/ksz8851snl|asf/sam/components/ethernet_phy/dm9161a|asf/sam/drivers/acc|asf/sam/drivers/aes|asf/sam/drivers/crccu|asf/sam/drivers/afec|asf/sam/drivers/udp|asf/sam/drivers/xdmac|asf/sam/drivers/abdacb|asf/common/services/delay|asf/common/services/serial|asf/common/services/fifo|asf/common/services/crc32|asf/common/services/isp|asf/common/services/gfx_mono|asf/common/services/gfx|asf/common/services/sensors|asf/common/services/hugemem|asf/common/services/freertos|asf/common/services/calendar|asf/common/services/adp|asf/common/services/usb/class/phdc|asf/common/services/usb/class/msc|asf/common/services/usb/class/hid|asf/common/services/usb/class/dfu_flip|asf/common/services/usb/class/composite|asf/common/services/usb/class/aoa|asf/common/drivers|libraries/HID|libraries/SPI|asf/sam/utils/cmsis/samg|asf/sam/utils/cmsis/same70|asf/sam/utils/cmsis/sam4s|asf/sam/utils/cmsis/sam4n|asf/sam/utils/cmsis/sam4l|asf/sam/utils/cmsis/sam4e|asf/sam/utils/cmsis/sam4cp|asf/sam/utils/cmsis/sam4cm32|asf/sam/utils/cmsis/sams70|asf/sam/utils/cmsis/samv70|asf/sam/utils/cmsis/samv71|asf/sam/utils/cmsis/sam4cm|asf/sam/utils/cmsis/sam4c|asf/sam/utils/cmsis/sam3u|asf/sam/utils/cmsis/sam3s8|asf/sam/utils/cmsis/sam3s|asf/sam/utils/cmsis/sam3n|asf/thirdparty/CMSIS/DSP_Lib|asf/common/applications|asf/sam/applications|system/CMSIS/Device/ARM/ARMCM3/Source/Templates|system/CMSIS/CMSIS/DSP_Lib|system/CMSIS/Device/ARM/ARMCM4|system/CMSIS/Device/ARM/ARMCM0|system/CMSIS/Device/ATMEL/sam3sd8|system/CMSIS/Device/ATMEL/sam3u|system/CMSIS/Device/ATMEL/sam3s|system/CMSIS/Device/ATMEL/sam3n|system/CMSIS/Device/ATMEL/sam4s|variants/duet" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -355,14 +473,23 @@
 		<configuration configurationName="SAM3X8E">
 			<resource resourceType="PROJECT" workspacePath="/CoreNG"/>
 		</configuration>
-		<configuration configurationName="SAM4E_PROTO1"/>
+		<configuration configurationName="RADDS"/>
 		<configuration configurationName="SAM4E8E">
 			<resource resourceType="PROJECT" workspacePath="/CoreNG"/>
 		</configuration>
+		<configuration configurationName="Archim">
+			<resource resourceType="PROJECT" workspacePath="/CoreNG"/>
+		</configuration>
+		<configuration configurationName="SAM4E_PROTO1"/>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.lib.release.897729483.161018050;cdt.managedbuild.config.gnu.cross.lib.release.897729483.161018050.;cdt.managedbuild.tool.gnu.cross.c.compiler.326515188;cdt.managedbuild.tool.gnu.c.compiler.input.1806524910">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.lib.release.897729483.1360990522;cdt.managedbuild.config.gnu.cross.lib.release.897729483.1360990522.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.734745833;cdt.managedbuild.tool.gnu.cpp.compiler.input.2060543627">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.lib.release.897729483;cdt.managedbuild.config.gnu.cross.lib.release.897729483.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.975309532;cdt.managedbuild.tool.gnu.cpp.compiler.input.1513207687">
@@ -378,9 +505,6 @@
 				</scannerInfoProvider>
 			</profile>
 		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.lib.release.897729483.161018050;cdt.managedbuild.config.gnu.cross.lib.release.897729483.161018050.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.1042598993;cdt.managedbuild.tool.gnu.cpp.compiler.input.278536382">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.lib.release.897729483;cdt.managedbuild.config.gnu.cross.lib.release.897729483.;cdt.managedbuild.tool.gnu.cross.c.compiler.597788140;cdt.managedbuild.tool.gnu.c.compiler.input.964516936">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
 			<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
@@ -393,6 +517,12 @@
 					<parser enabled="true"/>
 				</scannerInfoProvider>
 			</profile>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.lib.release.897729483.1360990522;cdt.managedbuild.config.gnu.cross.lib.release.897729483.1360990522.;cdt.managedbuild.tool.gnu.cross.c.compiler.1523824228;cdt.managedbuild.tool.gnu.c.compiler.input.896294684">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.lib.release.897729483.161018050;cdt.managedbuild.config.gnu.cross.lib.release.897729483.161018050.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.1042598993;cdt.managedbuild.tool.gnu.cpp.compiler.input.278536382">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 	</storageModule>
 </cproject>
