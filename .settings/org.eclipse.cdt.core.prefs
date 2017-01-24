@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.cross.lib.release.897729483.1360990522/PATH/delimiter=;
+environment/project/cdt.managedbuild.config.gnu.cross.lib.release.897729483.1360990522/PATH/operation=replace
+environment/project/cdt.managedbuild.config.gnu.cross.lib.release.897729483.1360990522/PATH/value=c\:\\make;C\:\\Arduino-1.5.8\\hardware\\tools\\gcc-arm-none-eabi-4.8.3-2014q1\\bin
+environment/project/cdt.managedbuild.config.gnu.cross.lib.release.897729483.1360990522/append=true
+environment/project/cdt.managedbuild.config.gnu.cross.lib.release.897729483.1360990522/appendContributed=true

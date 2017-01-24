@@ -217,7 +217,7 @@ static const uint8_t APINS_HSMCI_DATA = 111;
 // EMAC
 static const uint8_t APINS_EMAC = 112;
 
-static const uint32_t MaxPinNumber = 109; // X17
+static const uint32_t MaxPinNumber = 113; // X17
 static const uint32_t PwmFastClock = 25000 * 255;              // fast PWM clock for Intel spec PWM fans that need 25kHz PWM
 static const uint32_t PwmSlowClock = (25000 * 255) / 256;      // slow PWM clock to allow us to get slow speeds
 

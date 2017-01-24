@@ -214,7 +214,8 @@ extern const PinDescription g_APinDescription[]=
   { PIOA, PIO_PA23X1_AD5,    ID_PIOA, PIO_INPUT,    PIO_DEFAULT, PIN_ATTR_ANALOG,                   ADC5,   NOT_ON_PWM,  NOT_ON_TIMER }, // AD2
   { PIOA, PIO_PA22X1_AD4,    ID_PIOA, PIO_INPUT,    PIO_DEFAULT, PIN_ATTR_ANALOG,                   ADC4,   NOT_ON_PWM,  NOT_ON_TIMER }, // AD3
   // 58
-  { PIOA, PIO_PA6X1_AD3,     ID_PIOA, PIO_INPUT,    PIO_DEFAULT, PIN_ATTR_ANALOG,                   ADC3,   NOT_ON_PWM,  TC0_CHB2     }, // AD4
+//{ PIOA, PIO_PA6X1_AD3,     ID_PIOA, PIO_INPUT,    PIO_DEFAULT, PIN_ATTR_ANALOG,                   ADC3,   NOT_ON_PWM,  TC0_CHB2     }, // AD4
+  { PIOA, PIO_PA6A_TIOB2,    ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, (PIN_ATTR_TIMER|PIN_ATTR_DIGITAL), ADC3,   NOT_ON_PWM,  TC0_CHB2     }, // TIOB2
   { PIOA, PIO_PA4X1_AD2,     ID_PIOA, PIO_INPUT,    PIO_DEFAULT, PIN_ATTR_ANALOG,                   ADC2,   NOT_ON_PWM,  NOT_ON_TIMER }, // AD5
   { PIOA, PIO_PA3X1_AD1,     ID_PIOA, PIO_INPUT,    PIO_DEFAULT, PIN_ATTR_ANALOG,                   ADC1,   NOT_ON_PWM,  TC0_CHB1     }, // AD6
   { PIOA, PIO_PA2X1_AD0,     ID_PIOA, PIO_INPUT,    PIO_DEFAULT, PIN_ATTR_ANALOG,                   ADC0,   NOT_ON_PWM,  TC0_CHA1     }, // AD7
@@ -328,8 +329,7 @@ extern const PinDescription g_APinDescription[]=
 		  	  	  	  	    ID_PIOB, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,					NO_ADC, NOT_ON_PWM, NOT_ON_TIMER }, // APINS_ETH
 
   // 113 - extra ARCHIM board pins
-  { PIOB, PIO_PB10B_A18,      ID_PIOB, PIO_PERIPH_B, PIO_DEFAULT, PIN_ATTR_DIGITAL,                  NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER }, // DIO PIN 113 (Split from dual pin DIO 85)
-
+  { PIOB, PIO_PB10B_A18,      ID_PIOB, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                  NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER }, // DIO PIN 113 (Split from dual pin DIO 85)
 };
 
 /*
