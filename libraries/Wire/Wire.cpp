@@ -335,22 +335,30 @@ void TwoWire::beginTransmission(int address) {
 //	devices will behave oddly if they do not see a STOP.
 //
 uint8_t TwoWire::endTransmission(uint8_t sendStop) {
+	uint8_t error = 0;
 	// transmit buffer (blocking)
 	TWI_StartWrite(twi, txAddress, 0, 0, txBuffer[0]);
-	TWI_WaitByteSent(twi, XMIT_TIMEOUT);
-	int sent = 1;
-	while (sent < txBufferLength) {
-		twi_write_byte(twi, txBuffer[sent++]);
-		TWI_WaitByteSent(twi, XMIT_TIMEOUT);
+	if (!TWI_WaitByteSent(twi, XMIT_TIMEOUT))
+		error = 2;	// error, got NACK on address transmit
+
+	if (error == 0) {
+		uint16_t sent = 1;
+		while (sent < txBufferLength) {
+			twi_write_byte(twi, txBuffer[sent++]);
+			if (!TWI_WaitByteSent(twi, XMIT_TIMEOUT))
+				error = 3;	// error, got NACK during data transmmit
+		}
 	}
-	TWI_Stop( twi);
-	TWI_WaitTransferComplete(twi, XMIT_TIMEOUT);
 
-	// empty buffer
-	txBufferLength = 0;
+	if (error == 0) {
+		TWI_Stop(twi);
+		if (!TWI_WaitTransferComplete(twi, XMIT_TIMEOUT))
+			error = 4;	// error, finishing up
+	}
 
+	txBufferLength = 0;		// empty buffer
 	status = MASTER_IDLE;
-	return sent;
+	return error;
 }
 
 //	This provides backwards compatibility with the original
